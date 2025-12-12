@@ -46,6 +46,7 @@ Intercept: ON
 ![Step 2 Screenshot](assests/burp2.jpg)
 ![Step 2 Screenshot](assests/burp3.jpg)
 ## **Step 4 — Capture Login Request**
+![Step 2 Screenshot](assests/dvwalogin.jpg)
 Return to Firefox and submit any placeholder credentials:
 username: 1
 password: 2
@@ -54,16 +55,16 @@ BurpSuite immediately captures the raw **HTTP login request**.
 This intercepted request becomes the base for the brute-force attack.
 
 ---
-
+![Step 2 Screenshot](assests/burpcapture.jpg)
 ## **Step 5 — Send Request to Intruder**
 Inside **Proxy → Intercept**:
-
+![Step 2 Screenshot](assests/intruder.jpg)
 - Right-click the captured request  
 - Select **Send to Intruder**  
 - Open the **Intruder** tab
 
 ---
-
+![Step 2 Screenshot](assests/openintruder.jpg)
 ## **Step 6 — Configure Attack Positions**
 Inside Intruder:
 
