@@ -71,16 +71,16 @@ Inside Intruder:
 1. Click **Clear** to remove auto-selected injection points  
 2. Highlight the value:
 username=1
-
+![Step 1 Screenshot](assests/clear.jpg)
 Click **Add**  
 3. Highlight the value:
 password=2
-
+![Step 1 Screenshot](assests/add.jpg)
 Click **Add**
 
 Attack Type → Select:
 Cluster Bomb
-
+![Step 1 Screenshot](assests/clusterbomb.jpg)
 This allows BurpSuite to test every username/password combination.
 
 ---
