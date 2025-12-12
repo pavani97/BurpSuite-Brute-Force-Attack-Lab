@@ -14,7 +14,7 @@ Target Machine
 
 ---
 ![Step 1 Screenshot](assests/image.png)
-![Step 1 Screenshot](assests/owasp login.png)
+![Step 1 Screenshot](assests/owasp login.jpg)
 
 ## **Step 2 — Configure Browser Proxy**
 To route traffic through BurpSuite:
