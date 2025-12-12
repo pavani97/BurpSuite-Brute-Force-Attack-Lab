@@ -15,6 +15,7 @@ Target Machine
 ---
 ![Step 1 Screenshot](assests/image.png)
 ![Step 2 Screenshot](assests/owasplogin.jpg)
+![Step 3 Screenshot](assests/owasp2.jpg)
 
 ## **Step 2 — Configure Browser Proxy**
 To route traffic through BurpSuite:
@@ -23,14 +24,15 @@ To route traffic through BurpSuite:
 2. Search for **proxy**  
 3. Choose **Manual Proxy Configuration**  
 4. Set:
-
+![Step 2 Screenshot](assests/proxy1.jpg)
+![Step 2 Screenshot](assests/proxy2.jpg)
 HTTP Proxy: 127.0.0.1
 Port: 8080
 
 This ensures all HTTP requests are captured by BurpSuite.
 
 ---
-
+![Step 2 Screenshot](assests/burp1.png)
 ## **Step 3 — Launch BurpSuite**
 From the Kali menu, open BurpSuite:
 
@@ -41,7 +43,8 @@ From the Kali menu, open BurpSuite:
 Intercept: ON
 
 ---
-
+![Step 2 Screenshot](assests/burp2.jpg)
+![Step 2 Screenshot](assests/burp3.jpg)
 ## **Step 4 — Capture Login Request**
 Return to Firefox and submit any placeholder credentials:
 username: 1
