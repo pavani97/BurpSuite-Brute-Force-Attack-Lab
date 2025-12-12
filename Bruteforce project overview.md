@@ -86,14 +86,15 @@ This allows BurpSuite to test every username/password combination.
 ---
 
 ## **Step 7 — Configure Payloads**
-
+![Step 1 Screenshot](assests/payload1.jpg)
+![Step 1 Screenshot](assests/payload2.jpg)
 ### **Payload Set 1 — Usernames**
 Add: Test
 Guest
 admin
 root
 msfadmin
-
+![Step 1 Screenshot](assests/payloadp1.jpg)
 ### **Payload Set 2 — Passwords**
 Add:Password@123
 P@$$w0rd@123
@@ -103,14 +104,14 @@ Root@123
 admin
 root
 msfadmin
-
+![Step 1 Screenshot](assests/payloadp2.jpg)
 BurpSuite will now generate all permutations across both lists.
 
 ---
 
 ## **Step 8 — Start the Attack**
 Click:Start Attack → OK
-
+![Step 1 Screenshot](assests/attack.jpg)
 BurpSuite begins sending multiple login attempts.  
 However, identifying the correct credentials manually is difficult.
 
@@ -125,7 +126,11 @@ To detect valid credentials:
 4. Choose **Fetch response**  
 5. Select the response section representing a successful login (from `index.php`)  
 6. Rerun the attack
-
+![Step 1 Screenshot](assests/grep.jpg)
+![Step 1 Screenshot](assests/fetchresponse.jpg)
+![Step 1 Screenshot](assests/location.jpg)
+![Step 1 Screenshot](assests/finalattack.jpg)
+![Step 1 Screenshot](assests/result.jpg)
 ### **Why This Works**
 - Invalid login attempts return:
 login.php
