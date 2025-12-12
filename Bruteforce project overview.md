@@ -13,7 +13,7 @@ Target Machine
 - Open the **Damn Vulnerable Web Application (DVWA)** login page.
 
 ---
-(assets/image.png)
+![Step 1 Screenshot](assets/image.png)
 
 ## **Step 2 — Configure Browser Proxy**
 To route traffic through BurpSuite:
